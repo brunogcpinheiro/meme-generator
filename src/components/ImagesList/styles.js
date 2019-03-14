@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ListWrapper = styled.ul`
 	height: 90vh;
 	width: 15%;
-	margin: 50px 0 50px 20px;
+	margin: 50px 0 30px 20px;
 	background: #fff;
 	-webkit-box-shadow: 0px 3px 17px 0px rgba(199, 199, 199, 1);
 	-moz-box-shadow: 0px 3px 17px 0px rgba(199, 199, 199, 1);
