@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ActionsWrapper = styled.header`
+export const FooterActionsWrapper = styled.footer`
 	width: 90%;
 	height: 100px;
 	background: #fff;
@@ -10,18 +10,5 @@ export const ActionsWrapper = styled.header`
 	margin: 50px 50px 50px 30px;
 	display: flex;
 	align-items: center;
-	grid-area: header;
-
-	button {
-		margin-left: 20px;
-		border: none;
-		border-radius: 5px;
-		background-color: #16a085;
-		color: #fff;
-		padding: 10px 20px;
-		font-family: 'Nunito', sans-serif;
-		font-weight: bold;
-		display: flex;
-		align-items: center;
-	}
+	grid-area: footer;
 `;

@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const ListWrapper = styled.ul`
+export const ListWrapper = styled.aside`
 	height: 90vh;
-	width: 15%;
 	margin: 50px 0 30px 20px;
 	background: #fff;
 	-webkit-box-shadow: 0px 3px 17px 0px rgba(199, 199, 199, 1);
@@ -13,6 +12,7 @@ export const ListWrapper = styled.ul`
 	flex-direction: column;
 	align-items: center;
 	overflow: scroll;
+	grid-area: nav;
 
 	p {
 		text-align: center;
