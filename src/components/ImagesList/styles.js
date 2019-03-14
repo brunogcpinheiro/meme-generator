@@ -27,6 +27,7 @@ export const ImageWrapper = styled.li`padding: 10px;`;
 
 export const Image = styled.img`
 	width: 100%;
+	height: 180px;
 	margin: 3px 0;
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(199, 199, 199, 1);
 	-moz-box-shadow: 0px 3px 5px 0px rgba(199, 199, 199, 1);
